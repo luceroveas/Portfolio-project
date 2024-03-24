@@ -1,2 +1,9 @@
-body {
+h1 {
+  font-family: "Playfair display", serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: "poppins", sans-serif;
+  font-weight: normal;
 }
