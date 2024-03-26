@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Project</title>
+    <meta
+      name="description"
+      content="Andrea is a front-end engineer based in Denver, Colorado."
+    />
+    <title>Front-end developer - Andrea Vea</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,19 +34,25 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="index.html">
-          <img src="images/logo.png" class="logo d-none d-md-block" alt="" />
+        <a href="index.html" title="Homeapage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="andrea logo"
+          />
           <img
             src="images/logosmall.jpg"
             class="logo d-block d-md-none"
-            alt=""
+            alt="andrea logo"
           />
         </a>
         <ul>
-          <li class="active"><a href="/index.html">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active">
+            <a href="/index.html" title="Homepage">Home</a>
+          </li>
+          <li><a href="/about.html" title="About Andrea">About</a></li>
+          <li><a href="/work.html" title="Andrea's Work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Andrea">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -52,7 +62,7 @@
       <h1>Andrea Vea</h1>
       <h2 class="mb-5">Front-end developer based in Denver, Colorado</h2>
       <div>
-        <a href="about.html" class="btn btn-branding">Contact me</a>
+        <a href="contact.html" class="btn btn-branding">Contact me</a>
       </div>
     </div>
     <p class="text-center m-5">
@@ -61,7 +71,11 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/yogurt.png" class="img-fluid" alt="" />
+          <img
+            src="images/yogurt.png"
+            class="img-fluid"
+            alt=" yogurt project preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -72,7 +86,7 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -86,16 +100,24 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/weather.png" class="img-fluid" alt="" />
+          <img
+            src="images/weather.png"
+            class="img-fluid"
+            alt="weather project preview"
+          />
         </div>
       </div>
       <div class="row">
         <div class="col d-none d-lg-block">
-          <img src="images/dictionary.png" class="img-fluid" alt="" />
+          <img
+            src="images/dictionary.png"
+            class="img-fluid"
+            alt="dictionary app preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -106,7 +128,7 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -115,33 +137,58 @@
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding">Contact me</a>
+            <a
+              href="contact.html"
+              class="btn btn-branding"
+              title="Contact Andrea"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:patricia@gmail.com" class="email-link"
+          <a
+            href="mailto:patricia@gmail.com"
+            class="email-link"
+            title="Email Andrea"
             >andreabeak@gmail.com</a
           >
         </div>
 
         <div class="social-links d-flex justify-content-center mb-5">
-          <a href="https://www.instagram.com/anddreavea/" target="_blank">
+          <a
+            href="https://www.instagram.com/anddreavea/"
+            target="_blank"
+            title="Instagram Profile"
+          >
             <i class="fa-brands fa-instagram"></i
           ></a>
-          <a href="https://github.com/luceroveas" target="_blank">
+          <a
+            href="https://github.com/luceroveas"
+            target="_blank"
+            title="Github Profile"
+          >
             <i class="fa-brands fa-github"></i
           ></a>
           <a
             href="https://platform.linkedin.com/badges/js/profile.js"
             target="_blank"
+            title="Linked In Profile"
           >
             <i class="fa-brands fa-linkedin"></i
           ></a>
         </div>
+        <p class="text-center mt-4">
+          ✌️ This project was coded by Andrea Vea, and it is
+          <a
+            href="https://github.com/luceroveas/Portfolio-project"
+            target="_blank"
+            >open-sourced
+          </a>
+        </p>
       </footer>
     </div>
   </body>
